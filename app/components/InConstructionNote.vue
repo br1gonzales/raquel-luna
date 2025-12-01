@@ -1,8 +1,8 @@
 <template>
     <section class="relative h-full">
-        <div class="h-full absolute inset-0">
-            <img class="h-full object-[25%_75%] object-cover mt-[70px] inset-0 absolute z-10" src="/wallpaper.png"
-                width="1440" height="695" alt="wallpaper">
+        <div class="h-full top-0 left-0 w-full absolute">
+            <NuxtImg src="/xl-hero-bg.png" width="1440" class="w-full h-full object-left object-cover" height="714" />
+            <img>
         </div>
         <div
             class="z-[100] flex flex-col w-full xl:pt-[115px] xl:pl-[168px] sm:p-[79px_0_0]  p-[174px_0]  z-100 relative gap-[48px]">
@@ -23,8 +23,9 @@
                 </LinkButton>
             </div>
         </div>
-        <img width="547" height="663" class="z-50 sm:block hidden absolute w-[547px] h-[663px] right-[92px] top-[106px]"
-            src="/vestido.png" alt="vestido"></img>
+        <NuxtImg width="547" height="663"
+            class="z-50 sm:block hidden absolute w-[547px] h-[663px] md:-right-[230px] md:-bottom-[138px] sm:-right-[238px] sm:-bottom-[78px]"
+            src="/vestido.png" alt="vestido" />
     </section>
 </template>
 

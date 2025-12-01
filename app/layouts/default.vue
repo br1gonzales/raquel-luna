@@ -1,5 +1,5 @@
 <template>
-    <main class="h-screen overflow-y-hidden">
+    <main class="h-screen overflow-hidden">
         <Header />
         <slot />
     </main>
