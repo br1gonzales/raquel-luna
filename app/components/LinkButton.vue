@@ -25,6 +25,6 @@ const props = defineProps({
 
 <style>
 a {
-    font-family: 'Cambay'
+    font-family: Cambay
 }
 </style>
