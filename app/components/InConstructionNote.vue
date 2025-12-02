@@ -21,7 +21,7 @@
                         <span class="mt-[4px]">Ir a Instagram</span>
                     </LinkButton>
                 </div>
-                <NuxtImg width="547" height="663"
+                <NuxtImg width="547" height="663" preload
                     class="z-10 sm:block hidden absolute xl:top-0 xl:right-0 xl:w-[547px] xl:h-[663px] lg:w-[537px] lg:h-[652px] w-[547px] h-[663px] md:-right-[230px] md:top-[113px]  lg:top-0 lg:right-0 sm:top-[50px] sm:-right-[234px]"
                     src="/vestido.png" alt="vestido" />
             </div>
